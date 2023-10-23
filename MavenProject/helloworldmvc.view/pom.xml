@@ -3,18 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>fr.exia</groupId>
+        <artifactId>helloworldmaven</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
 
     <groupId>fr.exia</groupId>
-    <artifactId>helloworldmaven</artifactId>
+    <artifactId>helloworldmvc.view</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>helloworldmvc.view</module>
-        <module>helloworldmvc.controller</module>
-        <module>helloworldmvc.model</module>
-        <module>helloworldmvc.Contract</module>
-        <module>helloworldmvc.main</module>
-    </modules>
+    <packaging>jar</packaging>
+    <name>view</name>
 
     <properties>
         <maven.compiler.source>20</maven.compiler.source>
